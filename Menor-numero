@@ -1,0 +1,13 @@
+"""
+Aula de python unis-mg
+Prof.Alberane
+Aluno.Danilo Venancio Belato
+"""
+##input dos numeros
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o segundo número inteiro: "))
+num3 = int(input("Digite o terceiro número inteiro: "))
+#funçao min 
+numero_menor= min(num1, num2, num3)
+#saida
+print(f"O menor número é: {numero_menor}")
